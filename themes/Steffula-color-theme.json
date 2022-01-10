@@ -259,7 +259,6 @@
 			"scope": [
 				"constant.character.format.placeholder",
 				"entity.name.tag.mustache",
-				"text.html.derivative",
 				"punctuation.definition.bracket.curly.begin.jsdoc",
 				"punctuation.definition.bracket.curly.end.jsdoc",
 			],
@@ -307,6 +306,7 @@
 			"name": "Metadata",
 			"scope": [
 				"meta.tag.preprocessor",
+				"meta.tag.metadata",
 				"meta.attribute",
 				"entity.name.function.decorator",
 				"entity.name.function.macro",
@@ -589,6 +589,7 @@
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
 				"heading",
+				"meta.tag.metadata.doctype",
 			],
 			"settings": {
 				"fontStyle": "bold"
