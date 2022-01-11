@@ -109,6 +109,16 @@
 			}
 		},
 		{
+			"name": "Comment marker",
+			"scope": [
+				"comment keyword.codetag",
+			],
+			"settings": {
+				"foreground": "#707070",
+                "fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Keywords",
 			"scope": [
 				"keyword",
@@ -121,10 +131,12 @@
 				"entity.name.tag.js",
 				"entity.name.tag.ts",
 				"support.class.component",
+                "storage.modifier.java",
 				"storage.modifier.async",
 				"storage.modifier.pointer",
 				"storage.modifier.const",
 				"storage.modifier.static",
+				"storage.modifier.extends",
 				"storage.modifier.specifier.const",
 				"storage.modifier.specifier.static",
 				"storage.modifier.ts",
@@ -132,7 +144,9 @@
 				"storage.type.class",
 				"storage.type.function",
 				"storage.type.namespace",
+				"storage.type.struct",
 				"storage.type.rust",
+				"storage.type.enum",
 				"storage.type.js",
 				"storage.type.jsx",
 				"storage.type.ts",
@@ -149,6 +163,7 @@
 				"storage.type.modifier.access.control.protected.cpp",
 				"storage.type.modifier.access.control.private.cpp",
 				"constant.language.import-export-all",
+                "variable.language.wildcard",
 			],
 			"settings": {
 				"foreground": "#ff9340",
@@ -168,14 +183,17 @@
 				"punctuation.separator",
 				"punctuation.comma",
 				"punctuation.semi",
+                "punctuation.bracket",
 				"meta.brace",
 				"meta.tag.xml",
 				"meta.function.calc",
 				"meta.environment-variable.ruby",
 				"storage.type.function.arrow",
 				"storage.modifier.reference",
-				"storage.modifier.chomping-indicator"
-			],
+				"storage.modifier.chomping-indicator",
+                "meta.directive.transaction.beancount meta.account.beancount punctuation.separator.beancount",
+                "meta.directive.dated.beancount meta.account.beancount punctuation.separator.beancount",
+            ],
 			"settings": {
 				"foreground": "#cc7832",
 			}
@@ -187,9 +205,13 @@
 				"entity.name.namespace",
 				"entity.name.module",
 				"entity.name.scope-resolution",
+                "meta.import variable.other.readwrite",
+                "storage.modifier.package",
+                "storage.modifier.import",
+                "constant.language.beancount",
 			],
 			"settings": {
-				"foreground": "#ffbb44",
+				"foreground": "#ffdd44",
 			}
 		},
 		{
@@ -202,11 +224,43 @@
 				"support.class",
 				"keyword.type",
 				"entity.other.inherited-class",
+				"entity.type.commodity",
 			],
 			"settings": {
 				"foreground": "#88ffff",
 			}
 		},
+        {
+            "name": "Class declaration",
+            "scope": [
+                "meta.class entity.name.type",
+				"meta.block.class entity.name.type.class",
+				"meta.block.struct entity.name.type.struct",
+            ],
+            "settings": {
+                "foreground": "#00ffff",
+                "fontStyle": "bold",
+            }
+        },
+        {
+            "name": "Interface",
+            "scope": [
+                "entity.name.type.interface",
+            ],
+            "settings": {
+                "foreground": "#88ff88",
+            },
+        },
+        {
+            "name": "Interface declaration",
+            "scope": [
+                "meta.interface entity.name.type.interface",
+            ],
+            "settings": {
+                "foreground": "#00ff00",
+                "fontStyle": "bold"
+            }
+        },
 		{
 			"name": "Type alias",
 			"scope": [
@@ -214,6 +268,16 @@
 			],
 			"settings": {
 				"foreground": "#80ffd4",
+			}
+		},
+		{
+			"name": "Type alias declaration",
+			"scope": [
+				"meta.type.declaration entity.name.type.alias",
+			],
+			"settings": {
+				"foreground": "#00ffaa",
+                "fontStyle": "bold",
 			}
 		},
 		{
@@ -234,19 +298,50 @@
 				"entity.name.function.member",
 				"entity.name.variable.property.cs",
 				"entity.other.attribute-name.class.mixin",
+                "source.rst keyword.control",
 			],
 			"settings": {
 				"foreground": "#e6e68a",
 			}
 		},
+        {
+            "name": "Function declaration",
+            "scope": [
+                "meta.function entity.name.function",
+                "meta.method.identifier entity.name.function",
+                "meta.definition.function entity.name.function.js",
+                "meta.definition.function entity.name.function.ts",
+                "meta.definition.function entity.name.function.jsx",
+                "meta.definition.function entity.name.function.tsx",
+				"meta.definition.variable entity.name.function.js",
+				"meta.definition.variable entity.name.function.ts",
+				"meta.definition.variable entity.name.function.jsx",
+				"meta.definition.variable entity.name.function.tsx",
+            ],
+            "settings": {
+                "foreground": "#ffff00",
+                "fontStyle": "bold",
+            }
+        },
 		{
 			"name": "Enum",
 			"scope": [
 				"entity.name.type.enum",
 				"entity.name.variable.enum-member",
+				"variable.other.enummember",
 			],
 			"settings": {
 				"foreground": "#e8bfff",
+			}
+		},
+		{
+			"name": "Enum definition",
+			"scope": [
+				"meta.enum.declaration entity.name.type.enum",
+			],
+			"settings": {
+				"foreground": "#ca6fff",
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -258,9 +353,11 @@
 				"punctuation.definition.variable",
 				"meta.use",
 				"constant.other.caps",
+                "meta.import meta.block variable.other.readwrite",
+                "source.rst entity.name.tag",
 			],
 			"settings": {
-				"foreground": "#a9b7c6",
+				"foreground": "#dcaf88",
 			}
 		},
 		{
@@ -286,7 +383,8 @@
 				"keyword.other.unit",
 				"support.type.builtin",
 				"string.unquoted",
-				"entity.type.commodity",
+                "meta.amount.beancount keyword.operator.modifier",
+				"support.constant",
 			],
 			"settings": {
 				"foreground": "#6897bb",
@@ -316,11 +414,42 @@
 			"scope": [
 				"string.quoted.docstring",
 				"comment.block.documentation",
-			],
+                "comment.block.documentation punctuation.definition.comment",
+				"comment.block.javadoc",
+                "comment.block.javadoc punctuation.definition.comment",
+            ],
 			"settings": {
 				"foreground": "#629755",
 			}
 		},
+        {
+            "name": "Doc-string keyword",
+            "scope": [
+				"storage.type.class.jsdoc",
+				"punctuation.definition.inline.tag.jsdoc",
+				"punctuation.definition.block.tag.jsdoc",
+				"keyword.other.phpdoc",
+                "keyword.other.documentation.javadoc",
+            ],
+            "settings": {
+                "foreground": "#629755",
+                "fontStyle": "underline bold"
+            }
+        },
+        {
+            "name": "Doc-string variable",
+            "scope": [
+                "variable.other.jsdoc",
+                "variable.other.description.jsdoc",
+				"punctuation.definition.bracket.curly.begin.jsdoc",
+				"punctuation.definition.bracket.curly.end.jsdoc",
+                "comment.block.javadoc variable.parameter",
+                "comment.block.javadoc entity.name.type.class",
+            ],
+            "settings": {
+                "foreground": "#8a653b",
+            }
+        },
 		{
 			"name": "String escape",
 			"scope": [
@@ -335,8 +464,6 @@
 			"scope": [
 				"constant.character.format.placeholder",
 				"entity.name.tag.mustache",
-				"punctuation.definition.bracket.curly.begin.jsdoc",
-				"punctuation.definition.bracket.curly.end.jsdoc",
 			],
 			"settings": {
 				"foreground": "#86ffff",
@@ -347,10 +474,6 @@
 			"scope": [
 				"storage.type.format",
 				"storage.type.string.python",
-				"storage.type.class.jsdoc",
-				"punctuation.definition.inline.tag.jsdoc",
-				"punctuation.definition.block.tag.jsdoc",
-				"keyword.other.phpdoc",
 			],
 			"settings": {
 				"foreground": "#597aff",
@@ -373,6 +496,7 @@
 				"variable.css",
 				"variable.parameter.function-call.python",
 				"constant.other.symbol.hashkey",
+                "support.variable.beancount",
 			],
 			"settings": {
 				"foreground": "#ff6736",
@@ -389,9 +513,11 @@
 				"punctuation.definition.decorator",
 				"comment.line.number-sign.shebang",
 				"keyword.control.at-rule",
+				"keyword.control.at-rule punctuation.definition.keyword",
 				"keyword.control.directive",
 				"meta.preprocessor",
 				"punctuation.definition.directive",
+                "meta.function.decorator support.type"
 			],
 			"settings": {
 				"foreground": "#bbb529",
@@ -403,6 +529,7 @@
 			"name": "Heading",
 			"scope": [
 				"heading",
+                "markup.heading",
 				"punctuation.definition.heading",
 			],
 			"settings": {
@@ -442,6 +569,9 @@
 				"meta.link",
 				"meta.image",
 				"string.other.link",
+                "punctuation.definition.string.begin.markdown",
+                "punctuation.definition.string.end.markdown",
+                "punctuation.definition.metadata.markdown",
 			],
 			"settings": {
 				"foreground": "#00d0ff",
@@ -462,7 +592,9 @@
 			"name": "Code block",
 			"scope": [
 				"markup.fenced_code",
+				"punctuation.definition.markdown",
 				"markup.inline.raw",
+                "source.rst string.interpolated",
 			],
 			"settings": {
 				"foreground": "#808080",
@@ -540,9 +672,11 @@
 			"scope": [
 				"log.date",
 				"constant.numeric.date",
+                "meta.directive.dated.beancount punctuation.separator",
+                "meta.directive.transaction.beancount punctuation.separator",
 			],
 			"settings": {
-				"foreground": "#6897bb",
+				"foreground": "#8a653b",
 			}
 		},
 
@@ -632,44 +766,6 @@
 			],
 			"settings": {
 				"foreground": "#ff5252",
-			}
-		},
-	
-		// Make things bold!
-		{
-			"name": "Bold",
-			"scope": [
-				"variable.account.beancount",
-				"string.quoted.tiers.beancount",
-				"support.function.beancount",
-				"support.function.directive.beancount",
-				"entity.name.type.class.cpp",
-				"entity.name.function.definition.cpp",
-				"entity.name.type.class.python",
-				"entity.name.function.python",
-				"support.function.magic.python",
-				"meta.tag.preprocessor.xml",
-				"entity.name.type.alias.ts",
-				"entity.name.type.alias.tsx",
-				"entity.name.type.interface.ts",
-				"entity.name.type.interface.tsx",
-				"meta.definition.function.js",
-				"meta.definition.function.jsx",
-				"meta.definition.function.ts",
-				"meta.definition.function.tsx",
-				"meta.selector.css",
-				"meta.attribute-selector.css",
-				"entity.name.tag.css",
-				"entity.other.attribute-name.class.css",
-				"entity.other.attribute-name.id.css",
-				"entity.other.attribute-name.pseudo-class.css",
-				"entity.other.attribute-name.pseudo-element.css",
-				"heading",
-				"meta.tag.metadata.doctype",
-				"meta.function.definition.rust",
-			],
-			"settings": {
-				"fontStyle": "bold"
 			}
 		},
 	],
