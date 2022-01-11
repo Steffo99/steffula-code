@@ -3,7 +3,6 @@
 	"type": "dark",
 	"colors": {
 		"foreground": "#a6a7a8",
-
 		"input.background": "#45494a",
 		"input.border": "#646464",
 		"input.foreground": "#a6a7a8", // Fix this
@@ -72,7 +71,7 @@
 		"terminal.ansiWhite": "#808080",
 		"terminal.ansiYellow": "#a68a0d",
 
-		"debugToolBar.background": "#438c5c",
+		"debugToolBar.background": "#162c1e",
 
 		"gitDecoration.addedResourceForeground": "#629755",
 		"gitDecoration.modifiedResourceForeground": "#6897bb",
