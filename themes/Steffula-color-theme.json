@@ -260,7 +260,7 @@
 				"constant.other.caps",
 			],
 			"settings": {
-				"foreground": "#9999ff",
+				"foreground": "#a9b7c6",
 			}
 		},
 		{
@@ -673,119 +673,4 @@
 			}
 		},
 	],
-	"semanticHighlighting": true,
-	"semanticTokenColors": {
-        "type": {
-            "foreground": "#80ffd4",
-        },
-        "type.defaultLibrary": {
-            "foreground": "#80ffd4",
-        },
-        "struct": {
-            "foreground": "#80ffd4",
-        },
-        "type.declaration": {
-            "foreground": "#00ffaa",
-            "fontStyle": "bold"
-        },
-        "class": {
-            "foreground": "#88ffff",
-        },
-        "class.defaultLibrary": {
-            "foreground": "#88ffff",
-        },
-        "class.declaration": {
-            "foreground": "#00ffff",
-            "fontStyle": "bold",
-        },
-        "interface": {
-            "foreground": "#88ff88",
-        },
-        "interface.declaration": {
-            "foreground": "#00ff00",
-            "fontStyle": "bold",
-        },
-        "enum": {
-            "foreground": "#e8bfff",
-        },
-        "enum.declaration": {
-            "foreground": "#ca77ff",
-            "fontStyle": "bold",
-        },
-        "enumMember": {
-            "foreground": "#e8bfff",
-            "fontStyle": "italic",
-        },
-        "function": {
-            "foreground": "#e6e68a",
-        },
-        "function.defaultLibrary": {
-            "foreground": "#e6e68a",
-        },
-        "function.declaration": {
-            "foreground": "#ffff00",
-            "fontStyle": "bold",
-        },
-        "magicFunction": {
-            "foreground": "#db88db",
-        },
-        "magicFunction.defaultLibrary": {
-            "foreground": "#db88db",
-        },
-        "magicFunction.declaration": {
-            "foreground": "#db00db",
-            "fontStyle": "bold",
-        },
-        "method": {
-            "foreground": "#e6e68a",
-        },
-        "method.declaration": {
-            "foreground": "#ffff00",
-            "fontStyle": "bold",
-        },
-        "macro": {
-            "foreground": "#bbb529",
-        },
-        "*.decorator": {
-            "foreground": "#bbb529",
-        },
-        // Change me, maybe?
-        "variable": {
-            "foreground": "#9999ff",
-        },
-        "variable.readonly": {
-            "foreground": "#9999ff",
-        },
-        "variable.readonly.defaultLibrary": {
-            "foreground": "#9999ff",
-        },
-        "parameter": {
-            "foreground": "#dcaf88",
-        },
-        "property": {
-            "foreground": "#9999ff",
-        },
-        "property.readonly": {
-            "foreground": "#9999ff",
-        },
-        "selfParameter":{
-            "foreground": "#db88db",
-        },
-        "clsParameter":{
-            "foreground": "#db88db",
-        },
-        // What language?
-        "namespace": {
-            "foreground": "#ff0000",
-            "fontStyle": "bold",
-        },
-        "namespace.declaration": {
-            "foreground": "#ff0000",
-            "fontStyle": "bold",
-        },
-        "event": {
-            "foreground": "#FF0000",
-            "fontStyle": "bold"
-        },
-	},
 }
