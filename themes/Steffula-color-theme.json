@@ -593,6 +593,7 @@
 			"scope": [
 				"markup.fenced_code",
 				"punctuation.definition.markdown",
+				"punctuation.definition.raw.markdown",
 				"markup.inline.raw",
                 "source.rst string.interpolated",
 			],
