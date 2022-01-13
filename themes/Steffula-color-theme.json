@@ -2,11 +2,11 @@
 	"name": "Steffula",
 	"type": "dark",
 	"colors": {
-		"foreground": "#a6a7a8",
+		"foreground": "#cacbcc",
 		"input.background": "#45494a",
 		"input.border": "#646464",
-		"input.foreground": "#a6a7a8", // Fix this
-		"input.placeholderForeground": "#a6a7a888", // Fix this too
+		"input.foreground": "#cacbcc",
+		"input.placeholderForeground": "#777777",
 
 		"badge.background": "#45494a",
 		"badge.foreground": "#a6a7a8",
@@ -50,7 +50,8 @@
 		"sideBar.background": "#3c3f41",
 
 		"statusBar.background": "#3c3f41",
-		"statusBar.debuggingBackground": "#438c5c",
+		"statusBar.debuggingBackground": "#162c1e",
+		"statusBar.noFolderBackground": "#28162c",
 		"statusBarItem.errorForeground": "#ff5252",
 		"statusBarItem.warningForeground": "#ffff00",
 
@@ -88,8 +89,6 @@
 		{
 			"name": "Base",
 			"scope": [
-				"source",
-				"log",
 				"meta.attribute.python",
 			],
 			"settings": {
@@ -105,7 +104,7 @@
 				"punctuation.definition.comment",
 			],
 			"settings": {
-				"foreground": "#505050",
+				"foreground": "#555555",
 			}
 		},
 		{
