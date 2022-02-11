@@ -90,6 +90,7 @@
 			"name": "Base",
 			"scope": [
 				"meta.attribute.python",
+				"entity.name.type.rust",
 			],
 			"settings": {
 				"foreground": "#a9b7c6",
@@ -141,6 +142,7 @@
 				"storage.modifier.specifier.static",
 				"storage.modifier.ts",
 				"storage.modifier.tsx",
+				"storage.modifier.mut",
 				"storage.type.class",
 				"storage.type.function",
 				"storage.type.namespace",
@@ -236,6 +238,7 @@
                 "meta.class entity.name.type",
 				"meta.block.class entity.name.type.class",
 				"meta.block.struct entity.name.type.struct",
+				"entity.name.type.struct.rust",
             ],
             "settings": {
                 "foreground": "#00ffff",
@@ -255,6 +258,7 @@
             "name": "Interface declaration",
             "scope": [
                 "meta.interface entity.name.type.interface",
+				"entity.name.type.trait",
             ],
             "settings": {
                 "foreground": "#00ff00",
@@ -274,6 +278,7 @@
 			"name": "Type alias declaration",
 			"scope": [
 				"meta.type.declaration entity.name.type.alias",
+				"entity.name.type.declaration",
 			],
 			"settings": {
 				"foreground": "#00ffaa",
@@ -300,6 +305,7 @@
 				"entity.name.variable.property.cs",
 				"entity.other.attribute-name.class.mixin",
                 "source.rst keyword.control",
+				"meta.function.call entity.name.function",
 			],
 			"settings": {
 				"foreground": "#e6e68a",
@@ -339,6 +345,7 @@
 			"name": "Enum definition",
 			"scope": [
 				"meta.enum.declaration entity.name.type.enum",
+				"entity.name.type.enum.rust",
 			],
 			"settings": {
 				"foreground": "#ca6fff",
@@ -371,6 +378,8 @@
 				"keyword.other.special-method",
 				"variable.parameter.function.language.special",
 				"variable.language",
+				"punctuation.definition.lifetime",
+				"entity.name.type.lifetime",
 			],
 			"settings": {
 				"foreground": "#db88db",
@@ -418,6 +427,7 @@
                 "comment.block.documentation punctuation.definition.comment",
 				"comment.block.javadoc",
                 "comment.block.javadoc punctuation.definition.comment",
+				"comment.line.documentation",
             ],
 			"settings": {
 				"foreground": "#629755",
@@ -518,7 +528,9 @@
 				"keyword.control.directive",
 				"meta.preprocessor",
 				"punctuation.definition.directive",
-                "meta.function.decorator support.type"
+                "meta.function.decorator support.type",
+				"meta.attribute punctuation.definition.attribute",
+				"meta.attribute punctuation.brackets.attribute",
 			],
 			"settings": {
 				"foreground": "#bbb529",
