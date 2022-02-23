@@ -633,6 +633,48 @@
 				"foreground": "#639656",
 			}
 		},
+		{
+			"name": "Inserted",
+			"scope": [
+				"markup.inserted",
+			],
+			"settings": {
+				"foreground": "#99ff99",
+			}
+		},
+		{
+			"name": "Inserted header",
+			"scope": [
+				"punctuation.definition.inserted",
+				"punctuation.definition.to-file",
+				"meta.diff.header.to-file",
+			],
+			"settings": {
+				"foreground": "#44ff44",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Deleted",
+			"scope": [
+				"markup.deleted",
+			],
+			"settings": {
+				"foreground": "#ff9999",
+			}
+		},
+		{
+			"name": "Deleted header",
+			"scope": [
+				"punctuation.definition.deleted",
+				"punctuation.definition.from-file",
+				"meta.diff.header.from-file",
+			],
+			"settings": {
+				"foreground": "#ff4444",
+				"fontStyle": "bold"
+			}
+		},
 
 		// Logging languages
 		{
@@ -682,12 +724,13 @@
 			}
 		},
 		{
-			"name": "Date",
+			"name": "Additional context",
 			"scope": [
 				"log.date",
 				"constant.numeric.date",
                 "meta.directive.dated.beancount punctuation.separator",
                 "meta.directive.transaction.beancount punctuation.separator",
+				"meta.toc-list.line-number",
 			],
 			"settings": {
 				"foreground": "#8a653b",
