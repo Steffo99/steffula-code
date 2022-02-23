@@ -414,6 +414,7 @@
 			"name": "Byte-string",
 			"scope": [
 				"string.quoted.binary",
+				"string.unquoted.block.yaml",
 			],
 			"settings": {
 				"foreground": "#a7c261",
