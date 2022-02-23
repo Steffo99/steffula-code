@@ -170,6 +170,7 @@
                 "variable.language.wildcard",
 				"string.unquoted.heredoc punctuation.definition.string.begin",
 				"string.unquoted.heredoc punctuation.definition.string.end",
+				"keyword.control.preamble.latex punctuation.definition.function.latex",
 			],
 			"settings": {
 				"foreground": "#ff9340",
@@ -199,6 +200,8 @@
 				"storage.modifier.chomping-indicator",
                 "meta.directive.transaction.beancount meta.account.beancount punctuation.separator.beancount",
                 "meta.directive.dated.beancount meta.account.beancount punctuation.separator.beancount",
+				"punctuation.math.begin.bracket",
+				"punctuation.math.end.bracket",
             ],
 			"settings": {
 				"foreground": "#cc7832",
@@ -216,6 +219,7 @@
                 "storage.modifier.import",
                 "constant.language.beancount",
 				"support.type.object.module",
+				"meta.preamble.latex support.class"
 			],
 			"settings": {
 				"foreground": "#ffdd44",
@@ -311,6 +315,11 @@
 				"entity.other.attribute-name.class.mixin",
                 "source.rst keyword.control",
 				"meta.function.call entity.name.function",
+				"punctuation.definition.function.tex",
+				"punctuation.definition.function.latex",
+				"constant.character.math.tex",
+				"constant.other.general.math.tex",
+				"punctuation.definition.constant.math.tex",
 			],
 			"settings": {
 				"foreground": "#e6e68a",
@@ -368,6 +377,7 @@
 				"constant.other.caps",
                 "meta.import meta.block variable.other.readwrite",
                 "source.rst entity.name.tag",
+				"meta.function.environment support.class.math.block.environment.latex",
 			],
 			"settings": {
 				"foreground": "#dcaf88",
@@ -424,6 +434,9 @@
 				"string.quoted.binary",
 				"string.unquoted.block.yaml",
 				"string.unquoted.heredoc",
+				"support.class.math.block.environment.latex",
+				"punctuation.definition.string.begin.latex",
+				"punctuation.definition.string.end.latex",
 			],
 			"settings": {
 				"foreground": "#a7c261",
@@ -641,6 +654,8 @@
 			"name": "Quote / Greentext",
 			"scope": [
 				"markup.quote",
+				"punctuation.definition.quote.begin",
+				"punctuation.definition.quote.end",
 			],
 			"settings": {
 				"foreground": "#639656",
