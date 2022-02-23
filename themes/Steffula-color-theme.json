@@ -380,6 +380,8 @@
 				"variable.language",
 				"punctuation.definition.lifetime",
 				"entity.name.type.lifetime",
+				"constant.language.boolean.yaml",
+				"support.function.builtin.shorthand.gdscript",
 			],
 			"settings": {
 				"foreground": "#db88db",
