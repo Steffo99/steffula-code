@@ -423,6 +423,9 @@
 			"scope": [
 				"string",
 				"punctuation.definition.string",
+				"support.class.math.block.environment.latex",
+				"punctuation.definition.string.begin.latex",
+				"punctuation.definition.string.end.latex",
 			],
 			"settings": {
 				"foreground": "#438c5c",
@@ -434,9 +437,6 @@
 				"string.quoted.binary",
 				"string.unquoted.block.yaml",
 				"string.unquoted.heredoc",
-				"support.class.math.block.environment.latex",
-				"punctuation.definition.string.begin.latex",
-				"punctuation.definition.string.end.latex",
 			],
 			"settings": {
 				"foreground": "#a7c261",
