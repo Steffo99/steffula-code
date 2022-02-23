@@ -508,6 +508,7 @@
 				"variable.parameter.function-call.python",
 				"constant.other.symbol.hashkey",
                 "support.variable.beancount",
+				"source.pip-requirements entity.name.class"
 			],
 			"settings": {
 				"foreground": "#ff6736",
