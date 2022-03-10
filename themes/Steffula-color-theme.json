@@ -498,6 +498,7 @@
 			"scope": [
 				"constant.character.format.placeholder",
 				"entity.name.tag.mustache",
+				"entity.other.jinja.delimiter",
 			],
 			"settings": {
 				"foreground": "#86ffff",
@@ -508,9 +509,20 @@
 			"scope": [
 				"storage.type.format",
 				"storage.type.string.python",
+				"keyword.control.jinja",
 			],
 			"settings": {
 				"foreground": "#597aff",
+				"fontStyle": "bold"
+			}
+		},
+		{
+            "name": "Format variables",
+			"scope": [
+				"variable.other.jinja",
+			],
+			"settings": {
+				"foreground": "#8fa5ff",
 			}
 		},
 		{
