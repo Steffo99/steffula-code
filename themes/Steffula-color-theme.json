@@ -88,7 +88,6 @@
 			"name": "Base",
 			"scope": [
 				"meta.attribute.python",
-				"entity.name.type.rust",
 			],
 			"settings": {
 				"foreground": "#a9b7c6",
@@ -387,7 +386,7 @@
 				"support.function.magic",
 				"support.variable.magic",
 				"keyword.other.this",
-				"keyword.other.crate",
+				"meta.use.rust keyword.other.crate",
 				"keyword.other.special-method",
 				"variable.parameter.function.language.special",
 				"variable.language",
@@ -554,6 +553,7 @@
 				"meta.tag.preprocessor",
 				"meta.tag.metadata",
 				"meta.attribute",
+				"meta.attribute keyword.operator.attribute.inner",
 				"entity.name.function.decorator",
 				"entity.name.function.macro",
 				"punctuation.definition.decorator",
