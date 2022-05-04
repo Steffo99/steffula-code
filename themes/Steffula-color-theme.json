@@ -168,6 +168,7 @@
 				"string.unquoted.heredoc punctuation.definition.string.begin",
 				"string.unquoted.heredoc punctuation.definition.string.end",
 				"keyword.control.preamble.latex punctuation.definition.function.latex",
+				"source.elixir", // REALLY EXPERIMENTAL
 			],
 			"settings": {
 				"foreground": "#ff9340",
@@ -216,7 +217,8 @@
                 "storage.modifier.import",
                 "constant.language.beancount",
 				"support.type.object.module",
-				"meta.preamble.latex support.class"
+				"meta.preamble.latex support.class",
+				"variable.other.constant.elixir",
 			],
 			"settings": {
 				"foreground": "#ffdd44",
@@ -307,6 +309,7 @@
 				"entity.name.function.ts",
 				"entity.name.function.tsx",
 				"entity.name.function.call",
+				"entity.name.function-call",
 				"entity.name.function.member",
 				"entity.name.variable.property.cs",
 				"entity.other.attribute-name.class.mixin",
@@ -432,6 +435,8 @@
 			"name": "Byte-string",
 			"scope": [
 				"string.quoted.binary",
+				"support.function.variable.quoted.single.elixir",
+				"support.function.variable.quoted.single.elixir punctuation.definition.string",
 				"string.unquoted.block.yaml",
 				"string.unquoted.heredoc",
 			],
@@ -448,6 +453,7 @@
 				"comment.block.javadoc",
                 "comment.block.javadoc punctuation.definition.comment",
 				"comment.line.documentation",
+				"comment.documentation",
             ],
 			"settings": {
 				"foreground": "#629755",
