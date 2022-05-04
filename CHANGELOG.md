@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.5.0] - 2022-05-04
+
+- :sparkles: Add support for Elixir (`JakeBecker.elixir-ls`)
+
 ## [0.4.2] - 2022-03-10
 
 - :sparkles: Add support for Jinja tags (`samuelcolvin.jinjahtml`)
