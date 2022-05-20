@@ -157,6 +157,8 @@
 				"storage.type.type.tsx",
 				"storage.type.interface.ts",
 				"storage.type.interface.tsx",
+				"storage.type.config.prisma",
+				"storage.type.model.prisma",
 				"storage.type.modifier.final",
 				"storage.type.modifier.access.public.cpp",
 				"storage.type.modifier.access.protected.cpp",
@@ -202,6 +204,8 @@
                 "meta.directive.dated.beancount meta.account.beancount punctuation.separator.beancount",
 				"punctuation.math.begin.bracket",
 				"punctuation.math.end.bracket",
+				"source.prisma.array",
+				"source.prisma.attribute.with_arguments",
             ],
 			"settings": {
 				"foreground": "#cc7832",
@@ -237,6 +241,7 @@
 				"entity.other.inherited-class",
 				"entity.type.commodity",
 				"variable.other.constant.elixir",
+				"support.type.primitive.prisma"
 			],
 			"settings": {
 				"foreground": "#88ffff",
@@ -249,6 +254,7 @@
 				"meta.block.class entity.name.type.class",
 				"meta.block.struct entity.name.type.struct",
 				"entity.name.type.struct.rust",
+				"entity.name.type.model.prisma",
             ],
             "settings": {
                 "foreground": "#00ffff",
@@ -362,6 +368,7 @@
 			"scope": [
 				"meta.enum.declaration entity.name.type.enum",
 				"entity.name.type.enum.rust",
+				"entity.name.type.enum.prisma",
 			],
 			"settings": {
 				"foreground": "#ca6fff",
@@ -550,6 +557,8 @@
                 "support.variable.beancount",
 				"source.pip-requirements entity.name.class",
 				"meta.property-list.scss entity.name.tag.css",
+				"entity.name.type.config.prisma",
+				"variable.parameter.key",
 			],
 			"settings": {
 				"foreground": "#ff6736",
@@ -575,6 +584,7 @@
 				"meta.attribute punctuation.definition.attribute",
 				"meta.attribute punctuation.brackets.attribute",
 				"support.type.vendored.property-name",
+				"entity.name.function.attribute.prisma",
 			],
 			"settings": {
 				"foreground": "#bbb529",
@@ -859,6 +869,18 @@
 			],			
 			"settings": {
 				"foreground": "#00ffaa",
+			}
+		},
+		
+		// Database things
+		{
+			"name": "Database relationships",
+			"scope": [
+				"variable.language.relations.prisma",
+			],
+			"settings": {
+				"foreground": "#00ffaa",
+				"fontStyle": "italic",
 			}
 		},
 
