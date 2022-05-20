@@ -206,9 +206,8 @@
                 "meta.directive.dated.beancount meta.account.beancount punctuation.separator.beancount",
 				"punctuation.math.begin.bracket",
 				"punctuation.math.end.bracket",
-				"source.prisma.array",
-				"source.prisma.attribute.with_arguments",
 				"source.sql", // AGAIN VERY EXPERIMENTAL
+				"source.prisma", // why are all syntax highlighters so broken?
             ],
 			"settings": {
 				"foreground": "#cc7832",
