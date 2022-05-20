@@ -139,6 +139,7 @@
 				"storage.modifier.extends",
 				"storage.modifier.specifier.const",
 				"storage.modifier.specifier.static",
+				"storage.modifier.sql",
 				"storage.modifier.ts",
 				"storage.modifier.tsx",
 				"storage.modifier.mut",
@@ -153,6 +154,7 @@
 				"storage.type.jsx",
 				"storage.type.ts",
 				"storage.type.tsx",
+				"storage.type.sql",
 				"storage.type.type.ts",
 				"storage.type.type.tsx",
 				"storage.type.interface.ts",
@@ -206,6 +208,7 @@
 				"punctuation.math.end.bracket",
 				"source.prisma.array",
 				"source.prisma.attribute.with_arguments",
+				"source.sql", // AGAIN VERY EXPERIMENTAL
             ],
 			"settings": {
 				"foreground": "#cc7832",
@@ -448,6 +451,8 @@
 				"support.function.variable.quoted.single.elixir punctuation.definition.string",
 				"string.unquoted.block.yaml",
 				"string.unquoted.heredoc",
+				"string.quoted.double.sql",
+				"string.quoted.double.sql punctuation.definition.string",
 			],
 			"settings": {
 				"foreground": "#a7c261",
