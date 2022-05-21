@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.6.0] - 2022-05-21
+
+- :sparkles: Add support for Prisma
+- :sparkles: Add support for SQL
+
 ## [0.5.0] - 2022-05-04
 
 - :sparkles: Add support for Elixir (`JakeBecker.elixir-ls`)
