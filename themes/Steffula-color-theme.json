@@ -646,7 +646,8 @@
 				"string.other.link",
                 "punctuation.definition.string.begin.markdown",
                 "punctuation.definition.string.end.markdown",
-                "punctuation.definition.metadata.markdown",
+				"punctuation.definition.link.title.begin.markdown",
+				"punctuation.definition.link.title.end.markdown",
 			],
 			"settings": {
 				"foreground": "#00d0ff",
@@ -658,6 +659,7 @@
 				"markup.underline.link",
 				"keyword.operator.link",
 				"variable.parameter.url",
+                "punctuation.definition.metadata.markdown",
 			],
 			"settings": {
 				"foreground": "#2a7ede",
