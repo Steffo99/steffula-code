@@ -504,6 +504,8 @@
 			"name": "String escape",
 			"scope": [
 				"constant.character.escape",
+				"punctuation.definition.entity",
+				"constant.character.entity",
 			],
 			"settings": {
 				"foreground": "#a5c261",
