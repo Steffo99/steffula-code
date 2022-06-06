@@ -813,6 +813,7 @@
 			"scope": [
 				"meta.tag.table.toml",
 				"entity.name.section.group-title",
+				"punctuation.definition.entity.ini",
 			],
 			"settings": {
 				"foreground": "#ff9340",
