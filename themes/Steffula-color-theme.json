@@ -595,6 +595,8 @@
 				"meta.attribute punctuation.brackets.attribute",
 				"support.type.vendored.property-name",
 				"entity.name.function.attribute.prisma",
+				"comment.line.triple-slash.directive",
+				"comment.line.triple-slash.directive punctuation.definition.comment",
 			],
 			"settings": {
 				"foreground": "#bbb529",
