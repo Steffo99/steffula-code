@@ -1,8 +1,8 @@
 # Steffula Code
 
-_Steffula theme for Visual Studio Code_
+_Steffula theme for Visual Studio Code, inspired and based on the IntelliJ IDEA "Darcula" color theme_
 
-Inspired and based on the IntelliJ IDEA "Darcula" color theme.
+\[ [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/items?itemName=steffo.steffula-code) | [Palette](PALETTE.md) \]
 
 ![Screenshot 1](screenshots/screenshot-1.png)
 
