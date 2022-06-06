@@ -348,6 +348,7 @@
 				"meta.definition.variable entity.name.function.ts",
 				"meta.definition.variable entity.name.function.jsx",
 				"meta.definition.variable entity.name.function.tsx",
+				"entity.name.type.config.prisma",
             ],
             "settings": {
                 "foreground": "#ffff00",
@@ -563,7 +564,6 @@
                 "support.variable.beancount",
 				"source.pip-requirements entity.name.class",
 				"meta.property-list.scss entity.name.tag.css",
-				"entity.name.type.config.prisma",
 				"variable.parameter.key",
 			],
 			"settings": {
