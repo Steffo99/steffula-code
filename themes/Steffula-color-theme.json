@@ -130,6 +130,8 @@
 				"entity.name.tag.js",
 				"entity.name.tag.ts",
 				"entity.name.tag.tsx",
+				"entity.name.tag.directive.ts",
+				"entity.name.tag.directive.tsx",
 				"support.class.component",
                 "storage.modifier.java",
 				"storage.modifier.async",
