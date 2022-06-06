@@ -87,7 +87,7 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Base",
+			"name": "base",
 			"scope": [
 				"meta.attribute.python",
 			],
@@ -95,10 +95,8 @@
 				"foreground": "#a9b7c6",
 			}
 		},
-
-		// Programming languages
 		{
-			"name": "Comment",
+			"name": "comment",
 			"scope": [
 				"comment",
 				"punctuation.definition.comment",
@@ -108,7 +106,7 @@
 			}
 		},
 		{
-			"name": "Comment marker",
+			"name": "comment-marker",
 			"scope": [
 				"comment keyword.codetag",
 			],
@@ -118,7 +116,7 @@
 			}
 		},
 		{
-			"name": "Keywords",
+			"name": "keyword",
 			"scope": [
 				"keyword",
 				"keyword.control.flow",
@@ -183,7 +181,7 @@
 			}
 		},
 		{
-			"name": "Punctuation",
+			"name": "punctuation",
 			"scope": [
 				"punctuation.definition",
 				"punctuation.accessor",
@@ -216,7 +214,7 @@
 			}
 		},
 		{
-			"name": "Namespace",
+			"name": "namespace",
 			"scope": [
 				"entity.name.type.module",
 				"entity.name.namespace",
@@ -234,7 +232,7 @@
 			}
 		},
 		{
-			"name": "Class",
+			"name": "class",
 			"scope": [
 				"entity.name.type",
 				"storage.type",
@@ -252,7 +250,7 @@
 			}
 		},
         {
-            "name": "Class declaration",
+            "name": "class-declaration",
             "scope": [
                 "meta.class entity.name.type",
 				"meta.block.class entity.name.type.class",
@@ -266,7 +264,7 @@
             }
         },
         {
-            "name": "Interface",
+            "name": "interface",
             "scope": [
                 "entity.name.type.interface",
             ],
@@ -275,7 +273,7 @@
             },
         },
         {
-            "name": "Interface declaration",
+            "name": "interface-declaration",
             "scope": [
                 "meta.interface entity.name.type.interface",
 				"entity.name.type.trait",
@@ -286,7 +284,7 @@
             }
         },
 		{
-			"name": "Type alias",
+			"name": "type",
 			"scope": [
 				"entity.name.type.alias",
 			],
@@ -295,7 +293,7 @@
 			}
 		},
 		{
-			"name": "Type alias declaration",
+			"name": "type-declaration",
 			"scope": [
 				"meta.type.declaration entity.name.type.alias",
 				"entity.name.type.declaration",
@@ -306,7 +304,7 @@
 			}
 		},
 		{
-			"name": "Function",
+			"name": "function",
 			"scope": [
 				"entity.name.function",
 				"support.function.target",
@@ -338,7 +336,7 @@
 			}
 		},
         {
-            "name": "Function declaration",
+            "name": "function-declaration",
             "scope": [
                 "meta.function entity.name.function",
                 "meta.method.identifier entity.name.function",
@@ -358,7 +356,7 @@
             }
         },
 		{
-			"name": "Enum",
+			"name": "enum",
 			"scope": [
 				"entity.name.type.enum",
 				"entity.name.variable.enum-member",
@@ -369,7 +367,7 @@
 			}
 		},
 		{
-			"name": "Enum definition",
+			"name": "enum-declaration",
 			"scope": [
 				"meta.enum.declaration entity.name.type.enum",
 				"entity.name.type.enum.rust",
@@ -381,7 +379,7 @@
 			}
 		},
 		{
-			"name": "Variable",
+			"name": "variable",
 			"scope": [
 				"variable",
 				"support.variable",
@@ -398,7 +396,7 @@
 			}
 		},
 		{
-			"name": "Special",
+			"name": "special",
 			"scope": [
 				"support.function.magic",
 				"support.variable.magic",
@@ -418,7 +416,7 @@
 			}
 		},
 		{
-			"name": "Literal / Token",
+			"name": "literal",
 			"scope": [
 				"constant",
 				"punctuation.definition.constant",
@@ -433,7 +431,7 @@
 			}
 		},
 		{
-			"name": "String",
+			"name": "string",
 			"scope": [
 				"string",
 				"punctuation.definition.string",
@@ -446,7 +444,7 @@
 			}
 		},
 		{
-			"name": "Byte-string",
+			"name": "bytes",
 			"scope": [
 				"string.quoted.binary",
 				"support.function.variable.quoted.single.elixir",
@@ -461,7 +459,7 @@
 			}
 		},
 		{
-			"name": "Doc-string",
+			"name": "docstring",
 			"scope": [
 				"string.quoted.docstring",
 				"comment.block.documentation",
@@ -476,7 +474,7 @@
 			}
 		},
         {
-            "name": "Doc-string keyword",
+            "name": "docstring-keyword",
             "scope": [
 				"storage.type.class.jsdoc",
 				"punctuation.definition.inline.tag.jsdoc",
@@ -490,7 +488,7 @@
             }
         },
         {
-            "name": "Doc-string variable",
+            "name": "docstring-variable",
             "scope": [
                 "variable.other.jsdoc",
                 "variable.other.description.jsdoc",
@@ -504,7 +502,7 @@
             }
         },
 		{
-			"name": "String escape",
+			"name": "escape",
 			"scope": [
 				"constant.character.escape",
 				"punctuation.definition.entity",
@@ -515,7 +513,7 @@
 			}
 		},
 		{
-			"name": "Format string contents",
+			"name": "format-contents",
 			"scope": [
 				"constant.character.format.placeholder",
 				"entity.name.tag.mustache",
@@ -526,7 +524,7 @@
 			}
 		},
 		{
-			"name": "Format options",
+			"name": "format-options",
 			"scope": [
 				"storage.type.format",
 				"storage.type.string.python",
@@ -538,7 +536,7 @@
 			}
 		},
 		{
-            "name": "Format variables",
+            "name": "format-variables",
 			"scope": [
 				"variable.other.jinja",
 			],
@@ -547,7 +545,7 @@
 			}
 		},
 		{
-			"name": "Dictionary key",
+			"name": "key",
 			"scope": [
 				"keyword.key",
 				"keyword.other.definition.ini",
@@ -574,7 +572,7 @@
 			}
 		},
 		{
-			"name": "Metadata",
+			"name": "meta",
 			"scope": [
 				"meta.tag.preprocessor",
 				"meta.tag.metadata",
@@ -604,7 +602,7 @@
 
 		// Markup languages
 		{
-			"name": "Heading",
+			"name": "heading",
 			"scope": [
 				"heading",
                 "markup.heading",
@@ -615,7 +613,7 @@
 			}
 		},
 		{
-			"name": "Bold",
+			"name": "bold",
 			"scope": [
 				"markup.bold",
 			],
@@ -624,7 +622,7 @@
 			}
 		},
 		{
-			"name": "Italic",
+			"name": "italic",
 			"scope": [
 				"markup.italic",
 			],
@@ -633,7 +631,7 @@
 			}
 		},
 		{
-			"name": "Underline",
+			"name": "underline",
 			"scope": [
 				"markup.underline",
 			],
@@ -642,7 +640,7 @@
 			}
 		},
 		{
-			"name": "Link text",
+			"name": "link",
 			"scope": [
 				"meta.link",
 				"meta.image",
@@ -657,7 +655,7 @@
 			}
 		},
 		{
-			"name": "Link URL",
+			"name": "url",
 			"scope": [
 				"markup.underline.link",
 				"keyword.operator.link",
@@ -669,7 +667,7 @@
 			}
 		},
 		{
-			"name": "Code block",
+			"name": "code",
 			"scope": [
 				"markup.fenced_code",
 				"punctuation.definition.markdown",
@@ -682,7 +680,7 @@
 			}
 		},
 		{
-			"name": "Code block language",
+			"name": "code-language",
 			"scope": [
 				"markup.fenced_code.block.language",
 				"fenced_code.block.language", // Markdown plugin bug?
@@ -692,7 +690,7 @@
 			}
 		},
 		{
-			"name": "Quote / Greentext",
+			"name": "quote",
 			"scope": [
 				"markup.quote",
 				"punctuation.definition.quote.begin",
@@ -703,7 +701,7 @@
 			}
 		},
 		{
-			"name": "Inserted",
+			"name": "insert",
 			"scope": [
 				"markup.inserted",
 			],
@@ -712,7 +710,7 @@
 			}
 		},
 		{
-			"name": "Inserted header",
+			"name": "insert-header",
 			"scope": [
 				"punctuation.definition.inserted",
 				"punctuation.definition.to-file",
@@ -724,7 +722,7 @@
 			}
 		},
 		{
-			"name": "Deleted",
+			"name": "delete",
 			"scope": [
 				"markup.deleted",
 			],
@@ -733,7 +731,7 @@
 			}
 		},
 		{
-			"name": "Deleted header",
+			"name": "delete-header",
 			"scope": [
 				"punctuation.definition.deleted",
 				"punctuation.definition.from-file",
@@ -747,7 +745,7 @@
 
 		// Logging languages
 		{
-			"name": "Error",
+			"name": "log-error",
 			"scope": [
 				"log.error",
 			],
@@ -756,7 +754,7 @@
 			}
 		},
 		{
-			"name": "Warning",
+			"name": "log-warning",
 			"scope": [
 				"log.warn",
 				"log.warning",
@@ -766,7 +764,7 @@
 			}
 		},
 		{
-			"name": "Info",
+			"name": "log-info",
 			"scope": [
 				"log.info",
 			],
@@ -775,7 +773,7 @@
 			}
 		},
 		{
-			"name": "Verbose",
+			"name": "log-verbose",
 			"scope": [
 				"log.verbose",
 			],
@@ -784,7 +782,7 @@
 			}
 		},
 		{
-			"name": "Debug",
+			"name": "log-debug",
 			"scope": [
 				"log.debug",
 			],
@@ -793,7 +791,7 @@
 			}
 		},
 		{
-			"name": "Additional context",
+			"name": "log-context",
 			"scope": [
 				"log.date",
 				"constant.numeric.date",
@@ -808,7 +806,7 @@
 
 		// Configuration languages
 		{
-			"name": "Section titles",
+			"name": "section-title",
 			"scope": [
 				"meta.tag.table.toml",
 				"entity.name.section.group-title",
@@ -821,7 +819,7 @@
 		
 		// Stylesheets
 		{
-			"name": "Tag selector",
+			"name": "selector-tag",
 			"scope": [
 				"entity.name.tag.css",
 				"entity.name.tag.wildcard.css",
@@ -832,7 +830,7 @@
 			}
 		},
 		{
-			"name": "Attribute selector",
+			"name": "selector-attribute",
 			"scope": [
 				"meta.attribute-selector",
 			],			
@@ -841,7 +839,7 @@
 			}
 		},
 		{
-			"name": "Class selector",
+			"name": "selector-class",
 			"scope": [
 				"entity.other.attribute-name.class",
 			],			
@@ -850,7 +848,7 @@
 			}
 		},
 		{
-			"name": "ID selector",
+			"name": "selector-id",
 			"scope": [
 				"entity.other.attribute-name.id",
 			],			
@@ -859,7 +857,7 @@
 			}
 		},
 		{
-			"name": "Pseudo-class selector",
+			"name": "selector-pseudoclass",
 			"scope": [
 				"entity.other.attribute-name.pseudo-class",
 			],			
@@ -868,7 +866,7 @@
 			}
 		},
 		{
-			"name": "Pseudo-element selector",
+			"name": "selector-pseudoelement",
 			"scope": [
 				"entity.other.attribute-name.pseudo-element",
 			],			
@@ -877,7 +875,7 @@
 			}
 		},
 		{
-			"name": "Parent selector",
+			"name": "selector-parent",
 			"scope": [
 				"entity.other.attribute-name.parent-selector",
 			],			
@@ -888,7 +886,7 @@
 		
 		// Database things
 		{
-			"name": "Database relationships",
+			"name": "db-relationship",
 			"scope": [
 				"variable.language.relations.prisma",
 			],
@@ -900,7 +898,7 @@
 
 		// Invalid stuff
 		{
-			"name": "Invalid",
+			"name": "invalid",
 			"scope": [
 				"invalid",
 			],
