@@ -425,6 +425,7 @@
 				"string.unquoted",
                 "meta.amount.beancount keyword.operator.modifier",
 				"support.constant",
+				"source.env",
 			],
 			"settings": {
 				"foreground": "#6897bb",
@@ -565,6 +566,7 @@
 				"source.pip-requirements entity.name.class",
 				"meta.property-list.scss entity.name.tag.css",
 				"variable.parameter.key",
+				"variable.other.env",
 			],
 			"settings": {
 				"foreground": "#ff6736",
