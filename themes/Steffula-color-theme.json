@@ -427,7 +427,6 @@
 				"string.unquoted",
                 "meta.amount.beancount keyword.operator.modifier",
 				"support.constant",
-				"source.env",
 			],
 			"settings": {
 				"foreground": "#6897bb",
