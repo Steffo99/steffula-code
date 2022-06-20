@@ -1,6 +1,7 @@
 {
     "name": "steffula-code",
     "publisher": "steffo",
+    "icon": "icon.png",
     "displayName": "Steffula Code",
     "description": "Steffula theme for Visual Studio Code.",
     "license": "AGPL-3.0-or-later",
