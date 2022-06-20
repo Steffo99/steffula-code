@@ -1,6 +1,14 @@
 # Change Log
 
-## 0.7.0 - 2022-06-06
+## [0.7.1](https://github.com/Steffo99/steffula-code/commit/ac07d43ef5a83fd2ee13b0eb7bdd8727c2e9bf6a) - 2022-06-20
+
+- :wrench: Change token names \[[@Steffo99](https://github.com/Steffo99/steffula-code/commit/3939415c5b6ab5cc4dc833cba18c3d97c384122b)\]
+- :spiral_notepad: Improve README and PALETTE \[[@Steffo99](https://github.com/Steffo99/steffula-code/commit/9d507db1bf7a65424ac4198176ae0fc55ed91cfa), [@Steffo99](https://github.com/Steffo99/steffula-code/commit/12d653f8956bef6afcb5860037e8c2de66af1350), [@Steffo99](https://github.com/Steffo99/steffula-code/commit/998d52e8d6fb475744c78a850123ede31a26c9ed), [@Steffo99](https://github.com/Steffo99/steffula-code/commit/1bd99f0247d6f28327b031c0b83759fe811dbc81)\]
+- :package: Publish extension to the Open VSX Registry \[[@Steffo99](https://github.com/Steffo99/steffula-code/commit/d36654b18e49574c1739c88e8a87214069dad8d9)\]
+- :wrench: Reduce extension file size \[[@Steffo99](https://github.com/Steffo99/steffula-code/commit/0e00833a4cbbf96de64efd5d7b707ecd91a066ad), [@Steffo99](https://github.com/Steffo99/steffula-code/commit/46210d096d8026aafd54d7158c2b3e76ccc00c4f)\]
+- :package: Add extension icon \[[@Steffo99](https://github.com/Steffo99/steffula-code/commit/5a46b6cdad67f532f97c668e775d2b36a6410cf4)\]
+
+## [0.7.0](https://github.com/Steffo99/steffula-code/commit/08e653131016e320f181c3da80ab50bad285071f) - 2022-06-06
 
 - :wrench: Format HTML entities as "String escapes" \[[@Steffo99](https://github.com/Steffo99/steffula-code/commit/17d55944d919da07b7c1a2e16c62db86d4355939)\]
 - :wrench: Format Prisma `datasource` and `client` names as "Function declarations" \[[@Steffo99](https://github.com/Steffo99/steffula-code/commit/68f4482ac3b6f8bb7447738361d2510c0169a8d6)\]
