@@ -195,6 +195,7 @@
 				"punctuation.comma",
 				"punctuation.semi",
                 "punctuation.bracket",
+				"punctuation.colon",
 				"meta.brace",
 				"meta.tag.xml",
 				"meta.function.calc",
