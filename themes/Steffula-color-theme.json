@@ -198,6 +198,8 @@
 				"punctuation.colon",
 				"meta.brace",
 				"meta.tag.xml",
+				"meta.tag.inline.template",
+				"meta.template punctuation.fix_this_later.pipe", // ...really?
 				"meta.function.calc",
 				"meta.environment-variable.ruby",
 				"storage.type.function.arrow",
@@ -310,6 +312,7 @@
 				"entity.name.function",
 				"support.function.target",
 				"meta.function-call.generic",
+				"meta.template meta.function-call.template.mediawiki",
 				"entity.name.function.decorator",
 				"support.function",
 				"support.class.component.tsx",
@@ -519,6 +522,7 @@
 				"constant.character.format.placeholder",
 				"entity.name.tag.mustache",
 				"entity.other.jinja.delimiter",
+				"meta.template-parameter.mediawiki", // sigh...
 			],
 			"settings": {
 				"foreground": "#86ffff",
@@ -540,6 +544,7 @@
             "name": "format-variables",
 			"scope": [
 				"variable.other.jinja",
+				"meta.template-parameter.mediawiki variable", // sigh²...
 			],
 			"settings": {
 				"foreground": "#8fa5ff",
@@ -567,6 +572,7 @@
 				"meta.property-list.scss entity.name.tag.css",
 				"variable.parameter.key",
 				"variable.other.env",
+				"meta.template variable",
 			],
 			"settings": {
 				"foreground": "#ff6736",
@@ -587,6 +593,7 @@
 				"keyword.control.at-rule punctuation.definition.keyword",
 				"keyword.control.directive",
 				"meta.preprocessor",
+				"meta.template.parser-function",
 				"punctuation.definition.directive",
                 "meta.function.decorator support.type",
 				"meta.attribute punctuation.definition.attribute",
@@ -644,6 +651,7 @@
 			"name": "link",
 			"scope": [
 				"meta.link",
+				"meta.link string",
 				"meta.image",
 				"string.other.link",
                 "punctuation.definition.string.begin.markdown",
@@ -662,6 +670,8 @@
 				"keyword.operator.link",
 				"variable.parameter.url",
                 "punctuation.definition.metadata.markdown",
+				"meta.link.wiki.mediawiki punctuation",
+				"meta.link.wiki.mediawiki constant",
 			],
 			"settings": {
 				"foreground": "#2a7ede",
@@ -675,6 +685,7 @@
 				"punctuation.definition.raw.markdown",
 				"markup.inline.raw",
                 "source.rst string.interpolated",
+				"markup.other.table",
 			],
 			"settings": {
 				"foreground": "#808080",
