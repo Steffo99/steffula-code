@@ -157,6 +157,7 @@
 				"meta.import variable",
 				"storage.modifier.import",
 				"storage.modifier.package",
+				"entity.name.type.namespace",
 			],
 			"settings": {
 				"foreground": "#ffdd44",
