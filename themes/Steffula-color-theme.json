@@ -524,6 +524,7 @@
 				"punctuation.definition.directive",
 				"support.type.vendored.property-name",
 				"meta.function.decorator support.type",
+				"keyword.preprocessor",
 			],
 			"settings": {
 				"foreground": "#bbb529",
