@@ -178,11 +178,11 @@
 			"name": "class-declaration",
 			"scope": [
 				"entity.name.type.class.gdscript",
+				"entity.name.type.class",
 				"entity.name.type.model.prisma",
 				"entity.name.type.struct.rust",
 				"meta.block.class entity.name.type",
 				"meta.block.struct entity.name.type",
-				"meta.class entity.name.type",
 			],
 			"settings": {
 				"foreground": "#00ffff",
@@ -263,7 +263,6 @@
 				"entity.name.type.config.prisma",
 				"meta.definition.variable entity.name.function",
 				"meta.definition.function entity.name.function",
-				"meta.function entity.name.function",
 				"meta.method.identifier entity.name.function",
 			],
 			"settings": {
