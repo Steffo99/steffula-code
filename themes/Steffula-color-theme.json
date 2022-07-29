@@ -316,7 +316,6 @@
 		{
 			"name": "special",
 			"scope": [
-				"constant.language.boolean.yaml",
 				"constant.language.import-export-all",
 				"constant.other.placeholder.makefile",
 				"entity.name.tag.reference.scss",
@@ -343,7 +342,6 @@
 				"constant",
 				"keyword.other.unit",
 				"punctuation.definition.constant",
-				"string.unquoted",
 				"support.constant",
 				"support.type.builtin",
 				"meta.amount.beancount keyword.operator.modifier",
@@ -372,8 +370,7 @@
 				"string.quoted.binary",
 				"string.quoted.double.sql punctuation.definition.string",
 				"string.quoted.double.sql",
-				"string.unquoted.block.yaml",
-				"string.unquoted.heredoc",
+				"string.unquoted",
 				"support.function.builtin.shorthand.gdscript constant.character.escape",
 				"support.function.builtin.shorthand.gdscript keyword",
 			],
