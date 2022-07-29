@@ -426,7 +426,7 @@
 			"scope": [
 				"constant.character.entity",
 				"constant.character.escape",
-				"punctuation.definition.entity",
+				"punctuation.definition.entity", // Might need to be changed
 			],
 			"settings": {
 				"foreground": "#a5c261",
@@ -759,6 +759,7 @@
 			"name": "selector-attribute",
 			"scope": [
 				"meta.attribute-selector",
+				"meta.attribute-selector punctuation.definition.entity",
 			],
 			"settings": {
 				"foreground": "#ff9340",
@@ -768,6 +769,7 @@
 			"name": "selector-class",
 			"scope": [
 				"entity.other.attribute-name.class",
+				"entity.other.attribute-name.class punctuation.definition.entity.css",
 			],
 			"settings": {
 				"foreground": "#fcff00",
@@ -777,6 +779,7 @@
 			"name": "selector-id",
 			"scope": [
 				"entity.other.attribute-name.id",
+				"entity.other.attribute-name.id punctuation.definition.entity.css",
 			],
 			"settings": {
 				"foreground": "#00ffff",
@@ -786,6 +789,7 @@
 			"name": "selector-pseudoclass",
 			"scope": [
 				"entity.other.attribute-name.pseudo-class",
+				"entity.other.attribute-name.pseudo-class punctuation.definition.entity.css",
 			],
 			"settings": {
 				"foreground": "#ca77ff",
@@ -795,6 +799,7 @@
 			"name": "selector-pseudoelement",
 			"scope": [
 				"entity.other.attribute-name.pseudo-element",
+				"entity.other.attribute-name.pseudo-element punctuation.definition.entity.css",
 			],
 			"settings": {
 				"foreground": "#ff00ff",
@@ -804,6 +809,7 @@
 			"name": "selector-parent",
 			"scope": [
 				"entity.other.attribute-name.parent-selector",
+				"entity.other.attribute-name.parent-selector punctuation.definition.entity.css",
 			],
 			"settings": {
 				"foreground": "#00ffaa",
