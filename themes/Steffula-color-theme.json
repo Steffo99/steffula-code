@@ -402,7 +402,7 @@
 				"keyword.other.documentation.javadoc",
 			],
 			"settings": {
-				"foreground": "#629755",
+				"foreground": "#767E48",
 				"fontStyle": "underline bold"
 			}
 		},
