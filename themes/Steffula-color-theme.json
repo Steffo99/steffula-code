@@ -264,6 +264,7 @@
 				"meta.definition.variable entity.name.function",
 				"meta.definition.function entity.name.function",
 				"meta.method.identifier entity.name.function",
+				"entity.name.function.python",
 			],
 			"settings": {
 				"foreground": "#ffff00",
