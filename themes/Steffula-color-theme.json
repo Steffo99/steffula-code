@@ -586,6 +586,16 @@
 			}
 		},
 		{
+			"name": "media",
+			"scope": [
+				"meta.image punctuation",
+				"meta.image string.other.link",
+			],
+			"settings": {
+				"foreground": "#80ffd4"
+			}
+		},
+		{
 			"name": "url",
 			"scope": [
 				"keyword.operator.link",
