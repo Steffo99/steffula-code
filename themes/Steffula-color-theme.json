@@ -137,6 +137,7 @@
 				"storage.type.function.arrow",
 				"meta.directive.dated.beancount meta.account.beancount punctuation.separator.beancount",
 				"meta.directive.transaction.beancount meta.account.beancount punctuation.separator.beancount",
+				"meta.tag.table.toml",
 			],
 			"settings": {
 				"foreground": "#cc7832",
