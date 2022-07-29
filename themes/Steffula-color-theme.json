@@ -254,6 +254,7 @@
 				"support.function.target",
 				"support.function",
 				"source.rst keyword.control",
+				"meta.literal.nodepath.gdscript entity.name.function.gdscript"
 			],
 			"settings": {
 				"foreground": "#e6e68a",
