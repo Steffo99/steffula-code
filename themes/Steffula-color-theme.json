@@ -132,7 +132,6 @@
 				"punctuation.math.end.bracket",
 				"punctuation",
 				"source.prisma",
-				"source.sql",
 				"storage.modifier.chomping-indicator",
 				"storage.modifier.reference",
 				"storage.type.function.arrow",
