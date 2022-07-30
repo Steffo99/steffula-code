@@ -453,6 +453,9 @@
 				"keyword.control.jinja",
 				"storage.type.format",
 				"storage.type.string.python",
+				"punctuation.definition.bold",
+				"punctuation.definition.italic",
+				"punctuation.definition.underline",
 			],
 			"settings": {
 				"foreground": "#597aff",
@@ -466,11 +469,8 @@
 				"meta.template-parameter.mediawiki variable",
 				"variable.other.jinja",
 				"markup.bold",
-				"punctuation.definition.bold",
 				"markup.italic",
-				"punctuation.definition.italic",
 				"markup.underline",
-				"punctuation.definition.underline",
 			],
 			"settings": {
 				"foreground": "#8fa5ff",
