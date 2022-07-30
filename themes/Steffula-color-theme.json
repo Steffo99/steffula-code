@@ -299,6 +299,16 @@
 			}
 		},
 		{
+			"name": "lifetime",
+			"scope": [
+				"punctuation.definition.lifetime",
+				"entity.name.type.lifetime",
+			],
+			"settings": {
+				"foreground": "#8a653b",
+			}
+		},
+		{
 			"name": "variable",
 			"scope": [
 				"constant.other.caps",
@@ -321,12 +331,10 @@
 				"constant.language.import-export-all",
 				"constant.other.placeholder.makefile",
 				"entity.name.tag.reference.scss",
-				"entity.name.type.lifetime",
 				"keyword.other.special-method",
 				"keyword.other.this",
 				"meta.function.definition keyword.operator.logical",
 				"meta.use.rust keyword.other.crate",
-				"punctuation.definition.lifetime",
 				"support.function.builtin.shorthand.gdscript",
 				"support.function.magic",
 				"support.function.target.PHONY",
