@@ -390,6 +390,9 @@
 				"string.quoted.docstring",
 				"comment.block.documentation punctuation.definition.comment",
 				"comment.block.javadoc punctuation.definition.comment",
+				"markup.quote",
+				"punctuation.definition.quote.begin",
+				"punctuation.definition.quote.end",
 			],
 			"settings": {
 				"foreground": "#629755",
@@ -613,17 +616,6 @@
 			],
 			"settings": {
 				"foreground": "#bbb529",
-			}
-		},
-		{
-			"name": "quote",
-			"scope": [
-				"markup.quote",
-				"punctuation.definition.quote.begin",
-				"punctuation.definition.quote.end",
-			],
-			"settings": {
-				"foreground": "#639656",
 			}
 		},
 		{
