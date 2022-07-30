@@ -546,28 +546,12 @@
 			}
 		},
 		{
-			"name": "bold",
+			"name": "formatting",
 			"scope": [
 				"markup.bold",
 				"punctuation.definition.bold",
-			],
-			"settings": {
-				"foreground": "#ffbc82",
-			}
-		},
-		{
-			"name": "italic",
-			"scope": [
 				"markup.italic",
 				"punctuation.definition.italic",
-			],
-			"settings": {
-				"foreground": "#ffbc82",
-			}
-		},
-		{
-			"name": "underline",
-			"scope": [
 				"markup.underline",
 				"punctuation.definition.underline",
 			],
