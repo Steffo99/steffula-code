@@ -545,6 +545,7 @@
 			"name": "heading",
 			"scope": [
 				"meta.tag.table.toml entity.other.attribute-name",
+				"meta.tag.table.array.toml entity.other.attribute-name",
 				"entity.name.section.group-title",
 				"punctuation.definition.entity.ini",
 				"heading",
