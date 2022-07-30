@@ -530,16 +530,18 @@
 				"foreground": "#bbb529",
 			}
 		},
-		// Markup languages
 		{
 			"name": "heading",
 			"scope": [
+				"meta.tag.table.toml entity.other.attribute-name",
+				"entity.name.section.group-title",
+				"punctuation.definition.entity.ini",
 				"heading",
 				"punctuation.definition.heading",
 				"markup.heading",
 			],
 			"settings": {
-				"foreground": "#99ffff",
+				"foreground": "#ff9340",
 				"fontStyle": "bold",
 			}
 		},
@@ -747,18 +749,6 @@
 			],
 			"settings": {
 				"foreground": "#8a653b",
-			}
-		},
-		{
-			"name": "section-title",
-			"scope": [
-				"meta.tag.table.toml entity.other.attribute-name",
-				"entity.name.section.group-title",
-				"punctuation.definition.entity.ini",
-			],
-			"settings": {
-				"foreground": "#ff9340",
-				"fontStyle": "bold",
 			}
 		},
 		{
