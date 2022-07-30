@@ -270,6 +270,7 @@
 				"meta.method.identifier entity.name.function",
 				"entity.name.function.python",
 				"entity.name.function.gdscript",
+				"meta.function.definition entity.name.function",
 			],
 			"settings": {
 				"foreground": "#ffff00",
