@@ -534,6 +534,8 @@
 				"support.type.vendored.property-name",
 				"meta.function.decorator support.type",
 				"keyword.preprocessor",
+				"fenced_code.block.language",
+				"markup.fenced_code.block.language",
 			],
 			"settings": {
 				"foreground": "#bbb529",
@@ -606,16 +608,6 @@
 			],
 			"settings": {
 				"foreground": "#808080",
-			}
-		},
-		{
-			"name": "code-language",
-			"scope": [
-				"fenced_code.block.language",
-				"markup.fenced_code.block.language",
-			],
-			"settings": {
-				"foreground": "#bbb529",
 			}
 		},
 		{
