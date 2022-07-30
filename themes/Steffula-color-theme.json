@@ -158,6 +158,7 @@
 				"storage.modifier.import",
 				"storage.modifier.package",
 				"entity.name.type.namespace",
+				"constant.other.database-name",
 			],
 			"settings": {
 				"foreground": "#ffdd44",
@@ -171,6 +172,7 @@
 				"entity.type.commodity",
 				"support.class",
 				"support.type",
+				"constant.other.table-name",
 			],
 			"settings": {
 				"foreground": "#88ffff",
