@@ -306,6 +306,7 @@
 			],
 			"settings": {
 				"foreground": "#8a653b",
+				"fontStyle": "bold",
 			}
 		},
 		{
