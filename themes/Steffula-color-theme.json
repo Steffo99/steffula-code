@@ -465,6 +465,12 @@
 				"meta.interpolation",
 				"meta.template-parameter.mediawiki variable",
 				"variable.other.jinja",
+				"markup.bold",
+				"punctuation.definition.bold",
+				"markup.italic",
+				"punctuation.definition.italic",
+				"markup.underline",
+				"punctuation.definition.underline",
 			],
 			"settings": {
 				"foreground": "#8fa5ff",
@@ -543,20 +549,6 @@
 			"settings": {
 				"foreground": "#ff9340",
 				"fontStyle": "bold",
-			}
-		},
-		{
-			"name": "formatting",
-			"scope": [
-				"markup.bold",
-				"punctuation.definition.bold",
-				"markup.italic",
-				"punctuation.definition.italic",
-				"markup.underline",
-				"punctuation.definition.underline",
-			],
-			"settings": {
-				"foreground": "#ffbc82",
 			}
 		},
 		{
