@@ -540,6 +540,7 @@
 			],
 			"settings": {
 				"foreground": "#99ffff",
+				"fontStyle": "bold",
 			}
 		},
 		{
