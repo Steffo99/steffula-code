@@ -556,7 +556,7 @@
 		{
 			"name": "meta-declaration",
 			"scope": [
-				"entity.name.function.macro.rust",
+				"meta.macro.rules entity.name.function.macro.rust",
 			],
 			"settings": {
 				"foreground": "#bbb529",
