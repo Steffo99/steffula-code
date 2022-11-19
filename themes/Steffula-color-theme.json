@@ -173,6 +173,7 @@
 				"support.class",
 				"support.type",
 				"constant.other.table-name",
+				"variable.other.metavariable.specifier",
 			],
 			"settings": {
 				"foreground": "#88ffff",
