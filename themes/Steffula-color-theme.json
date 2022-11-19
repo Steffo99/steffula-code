@@ -554,6 +554,16 @@
 			}
 		},
 		{
+			"name": "meta-declaration",
+			"scope": [
+				"entity.name.function.macro.rust",
+			],
+			"settings": {
+				"foreground": "#bbb529",
+				"fontStyle": "bold",
+			}
+		},
+		{
 			"name": "heading",
 			"scope": [
 				"meta.tag.table.toml entity.other.attribute-name",
