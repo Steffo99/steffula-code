@@ -314,6 +314,14 @@
 			}
 		},
 		{
+			"name": "constant",
+			"scope": [
+				"constant.other.caps",
+			],
+			"settings": {
+				"foreground": "#a5d2ff",
+			}
+		},
 			"name": "variable",
 			"scope": [
 				"entity.name.variable",
