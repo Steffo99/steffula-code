@@ -513,6 +513,7 @@
 				"support.type.property-name",
 				"variable.css",
 				"variable.object.property",
+				"variable.other.property",
 				"variable.other.env",
 				"variable.parameter.function-call.python",
 				"variable.parameter.key",
