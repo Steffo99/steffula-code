@@ -529,6 +529,7 @@
 				"entity.name.function.attribute.prisma",
 				"entity.name.function.decorator",
 				"entity.name.function.macro",
+				"entity.name.function.preprocessor",
 				"keyword.control.at-rule punctuation.definition.keyword",
 				"keyword.control.at-rule",
 				"keyword.control.directive",
