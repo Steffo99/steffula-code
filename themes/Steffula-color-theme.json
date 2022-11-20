@@ -320,6 +320,7 @@
 				"foreground": "#a5d2ff",
 			}
 		},
+		{
 			"name": "variable",
 			"scope": [
 				"entity.name.variable",
