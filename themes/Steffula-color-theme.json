@@ -200,7 +200,7 @@
 				"entity.name.type.interface",
 			],
 			"settings": {
-				"foreground": "#88ff88",
+				"foreground": "#00ff00",
 			},
 		},
 		{
@@ -220,7 +220,7 @@
 				"entity.name.type.alias",
 			],
 			"settings": {
-				"foreground": "#80ffd4",
+				"foreground": "#00ffaa",
 			}
 		},
 		{
