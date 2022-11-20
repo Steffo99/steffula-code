@@ -280,15 +280,13 @@
 			}
 		},
 		{
-			"name": "enum",
+			"name": "enum-member",
 			"scope": [
-				"entity.name.type.enum",
 				"entity.name.variable.enum-member",
 				"variable.other.enummember",
-				"constant.other.caps",
 			],
 			"settings": {
-				"foreground": "#e8bfff",
+				"foreground": "#66b2ff",
 			}
 		},
 		{
@@ -298,7 +296,7 @@
 				"meta.enum.declaration entity.name.type.enum",
 			],
 			"settings": {
-				"foreground": "#ca6fff",
+				"foreground": "#2699ff",
 				"fontStyle": "bold",
 			}
 		},
