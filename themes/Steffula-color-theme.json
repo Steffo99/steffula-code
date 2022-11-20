@@ -837,4 +837,141 @@
 			}
 		},
 	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"comment": {
+			"foreground": "#555555",
+		},
+		"comment.documentation": {
+			"foreground": "#629755",
+		},
+		"lifetime": {
+			"foreground": "#8a653b",
+			"bold": false,
+		},
+		"enum": {
+			"foreground": "#2699ff",
+			"bold": false,
+		},
+		"enum.definition": {
+			"foreground": "#2699ff",
+			"bold": true,
+		},
+		"enumMember": {
+			"foreground": "#66b2ff",
+		},
+		"class": {
+			"foreground": "#00ffff",
+			"bold": false,
+		},
+		"class.declaration": {
+			"foreground": "#00ffff",
+			"bold": true,
+		},
+		"struct": {
+			"foreground": "#00ffff",
+			"bold": false,
+		},
+		"struct.declaration": {
+			"foreground": "#00ffff",
+			"bold": true,
+		},
+		"builtinType": {
+			"foreground": "#00ffff",
+		},
+		"interface": {
+			"foreground": "#00ff00",
+			"bold": false,
+		},
+		"interface.declaration": {
+			"foreground": "#00ff00",
+			"bold": true,
+		},
+		"typeAlias": {
+			"foreground": "#00ffaa",
+			"bold": false,
+		},
+		"function": {
+			"foreground": "#e6e68a",
+			"bold": false,
+		},
+		"function.declaration": {
+			"foreground": "#ffff00",
+			"bold": true,
+		},
+		"method": {
+			"foreground": "#e6e68a",
+			"bold": false,
+		},
+		"method.declaration": {
+			"foreground": "#ffff00",
+			"bold": true,
+		},
+		"macro": {
+			"foreground": "#bbb529",
+			"bold": false,
+		},
+		"macro.declaration": {
+			"foreground": "#bbb529",
+			"bold": true,
+		},
+		"variable": {
+			"foreground": "#a9b7c6",
+			"italic": false,
+		},
+		"variable.mutable": {
+			"foreground": "#a9b7c6",
+			"italic": true,
+		},
+		"variable.constant": {
+			"foreground": "#a5d2ff",
+		},
+		"parameter": {
+			"foreground": "#dcaf88",
+			"italic": false,
+		},
+		"parameter.mutable": {
+			"foreground": "#dcaf88",
+			"italic": true,
+		},
+		"property": {
+			"foreground": "#dcaf88",
+		},
+		"decorator": {
+			"foreground": "#bbb529",
+			"bold": true,
+		},
+		"module.decorator": {
+			"foreground": "#bbb529",
+		},
+		"function.decorator": {
+			"foreground": "#bbb529",
+		},
+		"class.decorator": {
+			"foreground": "#bbb529",
+		},
+		"formatSpecifier": {
+			"foreground": "#86ffff"
+		},
+		"keyword.crateRoot": {
+			"foreground": "#db88db",
+		},
+		"property.builtin": {
+			"foreground": "#db88db",
+		},
+		"selfKeyword": {
+			"foreground": "#db88db",
+		},
+		"selfTypeKeyword": {
+			"foreground": "#db88db",
+			"bold": true,
+		},
+		"magicFunction": {
+			"foreground": "#db88db",
+		},
+		"magicFunction.declaration": {
+			"foreground": "#db88db",
+			"bold": true,
+		},
+	}
 }
