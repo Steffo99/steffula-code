@@ -496,6 +496,8 @@
 			"name": "key",
 			"scope": [
 				"constant.other.symbol.hashkey",
+				"constant.language.symbol.hashkey",
+				"punctuation.definition.constant.hashkey",
 				"entity.name.tag",
 				"entity.other.attribute-name",
 				"keyword.key",
