@@ -338,7 +338,7 @@
 				"keyword.other.special-method",
 				"keyword.other.this",
 				"meta.function.definition keyword.operator.logical",
-				"meta.use.rust keyword.other.crate",
+				"keyword.other.crate",
 				"support.function.builtin.shorthand.gdscript",
 				"support.function.magic",
 				"support.function.target.PHONY",
