@@ -285,6 +285,7 @@
 				"entity.name.type.enum",
 				"entity.name.variable.enum-member",
 				"variable.other.enummember",
+				"constant.other.caps",
 			],
 			"settings": {
 				"foreground": "#e8bfff",
@@ -315,7 +316,6 @@
 		{
 			"name": "variable",
 			"scope": [
-				"constant.other.caps",
 				"entity.name.variable",
 				"meta.function.environment support.class.math.block.environment.latex",
 				"meta.use",
@@ -370,6 +370,7 @@
 				"punctuation.definition.string.begin.latex",
 				"punctuation.definition.string.end.latex",
 				"punctuation.definition.string",
+				"punctuation.definition.char",
 				"string",
 				"support.class.math.block.environment.latex",
 			],
