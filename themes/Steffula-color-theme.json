@@ -962,6 +962,9 @@
 		"selfKeyword": {
 			"foreground": "#db88db",
 		},
+		"selfParameter": {
+			"foreground": "#db88db",
+		},
 		"selfTypeKeyword": {
 			"foreground": "#db88db",
 			"bold": true,
