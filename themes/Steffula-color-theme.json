@@ -465,6 +465,8 @@
 				"entity.other.jinja.delimiter",
 				"meta.template-parameter.mediawiki",
 				"punctuation.definition.interpolation",
+				"entity.other.njk.delimiter",
+				"punctuation.other.njk",
 			],
 			"settings": {
 				"foreground": "#86ffff",
@@ -479,6 +481,7 @@
 				"punctuation.definition.bold",
 				"punctuation.definition.italic",
 				"punctuation.definition.underline",
+				"keyword.control.njk",
 			],
 			"settings": {
 				"foreground": "#597aff",
@@ -494,6 +497,7 @@
 				"markup.bold",
 				"markup.italic",
 				"markup.underline",
+				"variable.other.njk",
 			],
 			"settings": {
 				"foreground": "#8fa5ff",
