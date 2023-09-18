@@ -200,7 +200,7 @@
 				"entity.name.type.interface",
 			],
 			"settings": {
-				"foreground": "#00ff00",
+				"foreground": "#88ff88",
 			},
 		},
 		{
@@ -220,7 +220,7 @@
 				"entity.name.type.alias",
 			],
 			"settings": {
-				"foreground": "#00ffaa",
+				"foreground": "#87FFD7",
 			}
 		},
 		{
@@ -734,7 +734,7 @@
 				"log.debug",
 			],
 			"settings": {
-				"foreground": "#ca77ff",
+				"foreground": "#dfabff",
 			}
 		},
 		{
