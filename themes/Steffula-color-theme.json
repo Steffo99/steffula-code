@@ -746,7 +746,7 @@
 			"settings": {
 				"foreground": "#a6ffa6",
 			}
-		}
+		},
 		{
 			"name": "log-info",
 			"scope": [
