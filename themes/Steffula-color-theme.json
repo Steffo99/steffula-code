@@ -37,10 +37,10 @@
 		"diffEditor.insertedTextBackground": "#438c6540",
 		"diffEditor.removedTextBackground": "#8f524740",
 		"diffEditor.diagonalFill": "#50505040",
-		"merge.currentHeaderBackground": "#8f8e47",
-		"merge.currentContentBackground": "#453d2b",
-		"merge.incomingHeaderBackground": "#8f8e47",
-		"merge.incomingContentBackground": "#453d2b",
+		"merge.currentHeaderBackground": "#8f8e4760",
+		"merge.currentContentBackground": "#453d2b40",
+		"merge.incomingHeaderBackground": "#8f8e4760",
+		"merge.incomingContentBackground": "#453d2b40",
 		"sideBar.background": "#3c3f41",
 		"statusBar.background": "#3c3f41",
 		"statusBar.debuggingBackground": "#162c1e",
@@ -547,7 +547,7 @@
 				"support.variable.beancount",
 			],
 			"settings": {
-				"foreground": "#ff6736",
+				"foreground": "#cc6d4e",
 			}
 		},
 		{
@@ -718,6 +718,10 @@
 			"name": "log-error",
 			"scope": [
 				"log.error",
+				"log.fail",
+				"log.failure",
+				"log.not-ok",
+				"log.no-ok",
 			],
 			"settings": {
 				"foreground": "#ffa6a6",
@@ -733,6 +737,16 @@
 				"foreground": "#ffffa6",
 			}
 		},
+		{
+			"name": "log-success",
+			"scope": [
+				"log.success",
+				"log.ok",
+			],
+			"settings": {
+				"foreground": "#a6ffa6",
+			}
+		}
 		{
 			"name": "log-info",
 			"scope": [
@@ -761,16 +775,27 @@
 			}
 		},
 		{
-			"name": "log-context",
+			"name": "log-extra",
 			"scope": [
 				"constant.numeric.date",
 				"log.date",
 				"meta.toc-list.line-number",
 				"meta.directive.dated.beancount punctuation.separator",
 				"meta.directive.transaction.beancount punctuation.separator",
+				"log.punctuation",
 			],
 			"settings": {
 				"foreground": "#8a653b",
+			}
+		},
+		{
+			"name": "log-header",
+			"scope": [
+				"log.header",
+			],
+			"settings": {
+				"foreground": "#8a653b",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -842,7 +867,7 @@
 				"invalid",
 			],
 			"settings": {
-				"foreground": "#ff5252",
+				"foreground": "#ff2424",
 			}
 		},
 	],
@@ -853,6 +878,10 @@
 		},
 		"comment.documentation": {
 			"foreground": "#629755",
+		},
+		"label": {
+			"foreground": "#8a653b",
+			"bold": false,
 		},
 		"lifetime": {
 			"foreground": "#8a653b",
