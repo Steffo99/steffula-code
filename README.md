@@ -1,6 +1,12 @@
+<div align="center">
+
+<img height="128" width="128" src="icon.png">
+
 # Steffula Code
 
 _Steffula theme for Visual Studio Code, inspired and based on the IntelliJ IDEA "Darcula" color theme_
+
+</div>
 
 \[ [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/items?itemName=steffo.steffula-code) | [**Open VSX Registry**](https://open-vsx.org/extension/steffo/steffula-code) | [Palette](PALETTE.md) \]
 
