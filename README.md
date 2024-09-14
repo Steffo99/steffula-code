@@ -8,7 +8,13 @@ _Steffula theme for Visual Studio Code, inspired and based on the IntelliJ IDEA 
 
 </div>
 
-\[ [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/items?itemName=steffo.steffula-code) | [**Open VSX Registry**](https://open-vsx.org/extension/steffo/steffula-code) | [Palette](PALETTE.md) \]
+## Links
+
+[![On the Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/d/steffo.kselftest?label=visual+studio+marketplace)](https://marketplace.visualstudio.com/items?itemName=steffo.steffula-code)
+ 
+[![On OpenVSX](https://img.shields.io/open-vsx/dt/steffo/kselftest?label=open+vsx+registry)](https://open-vsx.org/extension/steffo/steffula-code)
+
+## Screenshots
 
 ![Screenshot 1](.screenshots/screenshot-1.png)
 
