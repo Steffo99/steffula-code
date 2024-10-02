@@ -682,6 +682,36 @@
 			}
 		},
 		{
+			"name": "check-ok",
+			"scope": [
+				"support.function.directive.txn.completed.beancount",
+			],
+			"settings": {
+				"foreground": "#44ff44",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "check-needed",
+			"scope": [
+				"support.function.directive.txn.incomplete.beancount",
+			],
+			"settings": {
+				"foreground": "#ff4444",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "check-padding",
+			"scope": [
+				"support.function.directive.txn.padding.beancount",
+			],
+			"settings": {
+				"foreground": "#44ffff",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "insert-header",
 			"scope": [
 				"meta.diff.header.to-file",
