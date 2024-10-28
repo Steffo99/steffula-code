@@ -139,6 +139,7 @@
 				"meta.directive.transaction.beancount meta.account.beancount punctuation.separator.beancount",
 				"meta.tag.table.toml",
 				"markup.heading.wikitext",
+				"keyword.operator.arrow.cs",
 			],
 			"settings": {
 				"foreground": "#cc7832",
@@ -430,10 +431,11 @@
 				"punctuation.definition.inline.tag.jsdoc",
 				"storage.type.class.jsdoc",
 				"keyword.other.documentation.javadoc",
+				"comment.block.documentation entity.name.tag",
+				"comment.block.documentation punctuation.definition.tag",
 			],
 			"settings": {
 				"foreground": "#8A8A3B",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -460,7 +462,6 @@
 			],
 			"settings": {
 				"foreground": "#8A8A3B",
-				"fontStyle": "bold"
 			}
 		},
 		{
