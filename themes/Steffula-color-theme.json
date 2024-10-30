@@ -114,6 +114,8 @@
 				"storage.type.var",
 				"storage",
 				"keyword.other.special-method.dockerfile",
+				"support.constant.Caddyfile",
+				"entity.name.function.Caddyfile",
 			],
 			"settings": {
 				"foreground": "#ff9340",
@@ -321,6 +323,16 @@
 			],
 			"settings": {
 				"foreground": "#a5d2ff",
+			}
+		},
+		{
+			"name": "variable-declaration",
+			"scope": [
+				"variable.other.anchor.yaml",
+			],
+			"settings": {
+				"foreground": "#dcaf88",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -629,6 +641,7 @@
 				"punctuation.definition.tag.link",
 				"string.quoted.internal-link.wikitext",
 				"string.quoted.internal-link.wikitext keyword.operator",
+				"keyword.control.caddyfile",
 			],
 			"settings": {
 				"foreground": "#00d0ff",
@@ -883,6 +896,7 @@
 				"entity.other.attribute-name.pseudo-class punctuation.definition.entity.css",
 				"entity.other.attribute-name.pseudo-element",
 				"entity.other.attribute-name.pseudo-element punctuation.definition.entity.css",
+				"support.function.Caddyfile",
 			],
 			"settings": {
 				"foreground": "#CA77FF",
