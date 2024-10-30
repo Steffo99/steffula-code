@@ -532,9 +532,6 @@
 			}
 		},
 		{
-			"name": "markup-"
-		},
-		{
 			"name": "key",
 			"scope": [
 				"constant.other.symbol.hashkey",
