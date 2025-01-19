@@ -535,6 +535,7 @@
 			"name": "key",
 			"scope": [
 				"constant.other.symbol.hashkey",
+				"source.shell constant.other.option",
 				"constant.language.symbol.hashkey",
 				"punctuation.definition.constant.hashkey",
 				"entity.name.tag",
