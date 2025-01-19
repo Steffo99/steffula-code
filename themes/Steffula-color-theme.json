@@ -594,6 +594,7 @@
 				"keyword.preprocessor",
 				"fenced_code.block.language",
 				"markup.fenced_code.block.language",
+				"meta.shebang",
 			],
 			"settings": {
 				"foreground": "#bbb529",
