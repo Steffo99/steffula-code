@@ -261,7 +261,8 @@
 				"support.function",
 				"source.rst keyword.control",
 				"meta.literal.nodepath.gdscript entity.name.function.gdscript",
-				"entity.name.tag.local-name.wikitext"
+				"entity.name.tag.local-name.wikitext",
+				"punctuation.definition.logical-expression.shell",
 			],
 			"settings": {
 				"foreground": "#ffff00",
@@ -559,6 +560,7 @@
 				"variable.parameter.function-call.python",
 				"variable.parameter.key",
 				"support.variable.beancount",
+				"keyword.operator.logical.shell",
 			],
 			"settings": {
 				"foreground": "#ce603c",
