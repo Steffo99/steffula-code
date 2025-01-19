@@ -289,6 +289,7 @@
 			"scope": [
 				"entity.name.variable.enum-member",
 				"variable.other.enummember",
+				"source.shell string.regexp",
 			],
 			"settings": {
 				"foreground": "#66b2ff",
