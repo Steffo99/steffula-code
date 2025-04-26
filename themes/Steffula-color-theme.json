@@ -74,6 +74,7 @@
 		"gitDecoration.ignoredResourceForeground": "#777777",
 		"gitDecoration.conflictingResourceForeground": "#f4f149",
 		"gitDecoration.submoduleResourceForeground": "#ff8a4c",
+		"scmGraph.historyItemHoverLabelForeground": "#000000",
 		"scmGraph.foreground1": "#2a1e21",
 		"scmGraph.foreground2": "#282017",
 		"scmGraph.foreground3": "#1c241c",
