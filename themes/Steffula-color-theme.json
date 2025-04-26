@@ -1019,6 +1019,10 @@
 			"foreground": "#dcaf88",
 			"italic": false,
 		},
+		"variable.declaration": {
+			"foreground": "#dcaf88",
+			"bold": true,
+		},
 		"variable.mutable": {
 			"foreground": "#dcaf88",
 			"italic": true,
