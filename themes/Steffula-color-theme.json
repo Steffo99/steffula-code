@@ -74,13 +74,11 @@
 		"gitDecoration.ignoredResourceForeground": "#777777",
 		"gitDecoration.conflictingResourceForeground": "#f4f149",
 		"gitDecoration.submoduleResourceForeground": "#ff8a4c",
-		"scmGraph.historyItemRemoteRefColor": "#00d0ff",
-		"scmGraph.historyItemRefColor": "#ff9340",
-		"scmGraph.foreground1": "#111111",
-		"scmGraph.foreground2": "#111111",
-		"scmGraph.foreground3": "#111111",
-		"scmGraph.foreground4": "#111111",
-		"scmGraph.foreground5": "#111111",
+		"scmGraph.foreground1": "#2a1e21",
+		"scmGraph.foreground2": "#282017",
+		"scmGraph.foreground3": "#1c241c",
+		"scmGraph.foreground4": "#162428",
+		"scmGraph.foreground5": "#21202b",
 	},
 	"tokenColors": [
 		{
