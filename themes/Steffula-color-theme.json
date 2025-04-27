@@ -608,7 +608,7 @@
 				"meta.shebang",
 			],
 			"settings": {
-				"foreground": "#bbb529",
+				"foreground": "#85863a",
 			}
 		},
 		{
@@ -617,7 +617,7 @@
 				"meta.macro.rules entity.name.function.macro.rust",
 			],
 			"settings": {
-				"foreground": "#bbb529",
+				"foreground": "#85863a",
 				"fontStyle": "bold",
 			}
 		},
@@ -1008,11 +1008,11 @@
 			"bold": true,
 		},
 		"macro": {
-			"foreground": "#bbb529",
+			"foreground": "#85863a",
 			"bold": false,
 		},
 		"macro.declaration": {
-			"foreground": "#bbb529",
+			"foreground": "#85863a",
 			"bold": true,
 		},
 		"variable": {
@@ -1042,17 +1042,17 @@
 			"foreground": "#E6E68A",
 		},
 		"decorator": {
-			"foreground": "#bbb529",
+			"foreground": "#85863a",
 			"bold": true,
 		},
 		"module.decorator": {
-			"foreground": "#bbb529",
+			"foreground": "#85863a",
 		},
 		"function.decorator": {
-			"foreground": "#bbb529",
+			"foreground": "#85863a",
 		},
 		"class.decorator": {
-			"foreground": "#bbb529",
+			"foreground": "#85863a",
 		},
 		"formatSpecifier": {
 			"foreground": "#86ffff"
