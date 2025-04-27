@@ -2,15 +2,15 @@
 	"name": "Steffula",
 	"type": "dark",
 	"colors": {
-		"foreground": "#cacbcc",
+		"foreground": "#cccccc",
 		"input.background": "#45494a",
 		"input.border": "#646464",
-		"input.foreground": "#cacbcc",
+		"input.foreground": "#cccccc",
 		"input.placeholderForeground": "#777777",
 		"badge.background": "#45494a",
 		"badge.foreground": "#a6a7a8",
 		"activityBar.background": "#3c3f41",
-		"activityBar.foreground": "#cacbcc",
+		"activityBar.foreground": "#cccccc",
 		"activityBar.inactiveForeground": "#646464",
 		"activityBarBadge.background": "#ffff00",
 		"activityBarBadge.foreground": "#000000",
@@ -91,7 +91,7 @@
 				"meta.attribute.python",
 			],
 			"settings": {
-				"foreground": "#cacbcc",
+				"foreground": "#aaaaaa",
 			}
 		},
 		{
@@ -127,7 +127,7 @@
 				"entity.name.function.Caddyfile",
 			],
 			"settings": {
-				"foreground": "#ff9340",
+				"foreground": "#eeeeee",
 			}
 		},
 		{
@@ -151,9 +151,10 @@
 				"meta.tag.table.toml",
 				"markup.heading.wikitext",
 				"keyword.operator.arrow.cs",
+				"keyword.operator.namespace",
 			],
 			"settings": {
-				"foreground": "#b16f49",
+				"foreground": "#aaaaaa",
 			}
 		},
 		{
@@ -333,7 +334,7 @@
 				"constant.other.caps",
 			],
 			"settings": {
-				"foreground": "#a5d2ff",
+				"foreground": "#8cc3fc",
 			}
 		},
 		{
@@ -342,7 +343,7 @@
 				"variable.other.anchor.yaml",
 			],
 			"settings": {
-				"foreground": "#dcaf88",
+				"foreground": "#f2ab83",
 				"fontStyle": "bold"
 			}
 		},
@@ -359,28 +360,25 @@
 				"source.rst entity.name.tag",
 			],
 			"settings": {
-				"foreground": "#dcaf88",
+				"foreground": "#f2ab83",
 			}
 		},
 		{
 			"name": "special",
 			"scope": [
-				"constant.language.import-export-all",
-				"constant.other.placeholder.makefile",
-				"entity.name.tag.reference.scss",
-				"keyword.other.special-method",
-				"keyword.other.this",
-				"meta.function.definition keyword.operator.logical",
-				"keyword.other.crate",
-				"support.function.builtin.shorthand.gdscript",
-				"support.function.magic",
-				"support.function.target.PHONY",
-				"support.variable.magic",
-				"variable.language",
-				"variable.parameter.function.language.special",
+
 			],
 			"settings": {
 				"foreground": "#db88db",
+			}
+		},
+		{
+			"name": "special-variable",
+			"scope": [
+
+			],
+			"settings": {
+				"foreground": "#e3a6dd",
 			}
 		},
 		{
@@ -394,7 +392,7 @@
 				"meta.amount.beancount keyword.operator.modifier",
 			],
 			"settings": {
-				"foreground": "#6897bb",
+				"foreground": "#c7aff5",
 			}
 		},
 		{
@@ -409,7 +407,7 @@
 				"support.class.math.block.environment.latex",
 			],
 			"settings": {
-				"foreground": "#438c5c",
+				"foreground": "#8ed09c",
 			}
 		},
 		{
@@ -941,6 +939,9 @@
 		"comment.documentation": {
 			"foreground": "#629755",
 		},
+		"operator": {
+			"foreground": "#aaaaaa",
+		},
 		"label": {
 			"foreground": "#8a653b",
 			"bold": false,
@@ -1016,30 +1017,37 @@
 			"bold": true,
 		},
 		"variable": {
-			"foreground": "#dcaf88",
+			"foreground": "#f2ab83",
 			"italic": false,
 		},
 		"variable.declaration": {
-			"foreground": "#dcaf88",
+			"foreground": "#f2ab83",
 			"bold": true,
 		},
 		"variable.mutable": {
-			"foreground": "#dcaf88",
+			"foreground": "#f2ab83",
 			"italic": true,
 		},
 		"variable.constant": {
-			"foreground": "#dcaf88",
+			"foreground": "#8cc3fc",
+		},
+		"const.constant": {
+			"foreground": "#8cc3fc",
+		},
+		"const.declaration": {
+			"foreground": "#8cc3fc",
+			"bold": true
 		},
 		"parameter": {
-			"foreground": "#E6E68A",
+			"foreground": "#cdc072",
 			"italic": false,
 		},
 		"parameter.mutable": {
-			"foreground": "#E6E68A",
+			"foreground": "#cdc072",
 			"italic": true,
 		},
 		"property": {
-			"foreground": "#E6E68A",
+			"foreground": "#64d1d7",
 		},
 		"decorator": {
 			"foreground": "#85863a",
@@ -1067,7 +1075,7 @@
 			"foreground": "#db88db",
 		},
 		"selfParameter": {
-			"foreground": "#db88db",
+			"foreground": "#e3a6dd",
 		},
 		"selfTypeKeyword": {
 			"foreground": "#db88db",
