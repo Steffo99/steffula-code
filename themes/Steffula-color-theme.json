@@ -155,7 +155,7 @@
 		"macro": "#dddddd",
 		"decorator": "#dddddd",
 		"attribute": "#dddddd",
-		"unresolvedReference": "#ff0000",
+		"unresolvedReference": "#ff5252",
 		"function": "#E7E792",
 		"method": "#E7E792",
 		"derive": "#bef3ad",
